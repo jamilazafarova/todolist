@@ -1,0 +1,104 @@
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    position: absolute;
+    width: 80rem;
+    height: 35%;
+    margin: auto;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    padding: 3rem 0;
+    border-radius: 0.8rem;
+}
+
+.result {
+    position: relative;
+    padding: 3rem ;
+    background-color: black;
+    border-radius: 0.5rem;
+}
+
+.my_input {
+    width: 96%;
+    height: 40%;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+}
+.my_input:focus {
+    outline: none
+}
+.btn {
+    position: absolute;
+    width: 5.8rem;
+    height: 38%;
+    background-color: rgb(90, 90, 90);
+    color: white;
+    border-radius: 0.2rem;
+    right: 148px;
+    border:none;
+    bottom: 48px;
+    cursor: pointer;
+}
+.delete_all {
+    position: absolute;
+    width: 5.5rem;
+    height: 38%;
+    right: 66px;
+    border:none;
+    background-color: white;
+    bottom: 48px;
+    background-color: rgb(90, 90, 90);
+    color: white;
+    cursor: pointer;
+}
+
+.wrapper li {
+    list-style-type: none;
+    width: 99%;
+    background-color: black;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0;
+    padding-left: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.wrapper {
+    margin-top: 2rem;
+}
+.wrapper ul {
+   
+    padding: 0;
+    margin: 0;
+}
+
+.delete {
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgb(90, 90, 90);
+    width:6rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    color: black;
+    cursor: pointer;
+}
+
+h1{
+  text-align: center;
+  
+}
